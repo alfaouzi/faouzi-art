@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">ورشة فوزي للفنون</string>
+    <string name="workshop_username">@faouzi.art</string>
+    <string name="workshop_title">ورشة فوزي للفنون</string>
+    <string name="workshop_description">ورشة فوزي للفنون تعرض أعمالًا فنية رائعة ومتنوعة من صنع الهدايا والديكور والتحف.</string>
+    <string name="country_badge">الجزائر 🇩🇿 فخر الصناعة اليدوية</string>
+    <string name="workshop_location">حملة 3، باتنة، الجزائر</string>
+    <string name="workshop_phone">0790314282</string>
+    
+    <!-- Link Labels -->
+    <string name="btn_facebook">تابعنا على فيسبوك</string>
+    <string name="btn_instagram">تابع أعمالنا على إنستغرام</string>
+    <string name="btn_whatsapp">تواصل معنا عبر واتساب</string>
+    <string name="btn_youtube">شاهد أعمالنا على يوتيوب</string>
+    <string name="btn_tiktok">تابعنا على تيك توك</string>
+    <string name="btn_pinterest">اكتشف أعمالنا على Pinterest</string>
+    <string name="btn_telegram">تواصل معنا عبر تيليغرام</string>
+    
+    <!-- Subtitles / Handcrafted notes -->
+    <string name="sub_facebook">آخر المنشورات والطلبيات الخاصة</string>
+    <string name="sub_instagram">صور المعرض وفيديوهات الورشة</string>
+    <string name="sub_whatsapp">0790314282 (استفسارات وطلبيات مباشرة)</string>
+    <string name="sub_youtube">كواليس العمل والحرف اليدوية</string>
+    <string name="sub_tiktok">مقاطع سريعة وتقنيات الصنع</string>
+    <string name="sub_pinterest">أفكار ديكور وتحف وتنسيقات</string>
+    <string name="sub_telegram">قناة التحديثات والمعروضات</string>
+    
+    <!-- Card / QR / Actions -->
+    <string name="btn_call_direct">اتصال هاتفي</string>
+    <string name="btn_maps_direct">موقع الورشة</string>
+    <string name="btn_qr_code">بطاقة الورشة ورمز QR</string>
+    <string name="btn_share_link">مشاركة الرابط</string>
+    <string name="btn_copy_link">نسخ الرابط</string>
+    <string name="link_copied_toast">تم نسخ الرابط بنجاح!</string>
+    <string name="qr_code_title">رمز QR للبطاقة الشخصية</string>
+    <string name="qr_code_subtitle">امسح الرمز لفتح الروابط مباشرة أو طباعته على كروت الأعمال</string>
+    <string name="qr_code_close">إغلاق</string>
+    <string name="qr_code_save">حفظ صورة الرمز</string>
+    <string name="footer_rights">© ورشة فوزي للفنون • حملة 3، باتنة، الجزائر • صناعة يدوية أصيلة</string>
+</resources>

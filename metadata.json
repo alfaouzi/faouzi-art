@@ -1,0 +1,6 @@
+{
+  "name": "ورشة فوزي للفنون",
+  "description": "ورشة فوزي للفنون - صفحة الروابط والتواصل للأعمال الفنية والهدايا والديكور والتحف اليدوية الجزائرية",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
