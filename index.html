@@ -517,7 +517,7 @@
       <p style="font-size: 0.85rem; color: var(--text-secondary);">امسح الرمز لفتح الروابط مباشرة أو طباعته على كروت الأعمال</p>
       
       <div class="qr-box">
-        <canvas id="qr-canvas"></canvas>
+        <img src="qr-code.png" alt="رمز QR الرسمي لورشة فوزي للفنون" style="display: block; width: 220px; height: 220px; border-radius: 8px;">
       </div>
 
       <div style="background: var(--bg-dark); padding: 8px 12px; border-radius: 8px; font-size: 0.75rem; color: var(--turquoise-light); word-break: break-all; margin-bottom: 16px;">
@@ -681,7 +681,7 @@
       modal.classList.add("active");
       const currentUrl = window.location.href;
       document.getElementById("qr-url-text").innerText = currentUrl;
-      drawQrCode(currentUrl);
+      // using official qr-code.png directly
     }
 
     function closeQrModal(e) {

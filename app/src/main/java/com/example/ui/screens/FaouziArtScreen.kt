@@ -678,17 +678,22 @@ fun QrCodeBusinessCardDialog(
                     .padding(vertical = 4.dp),
                 horizontalAlignment = Alignment.CenterHorizontally
             ) {
-                // QR Code View
+                // Official Workshop QR Code Image
                 Box(
                     modifier = Modifier
-                        .size(220.dp)
-                        .padding(8.dp)
-                        .shadow(12.dp, RoundedCornerShape(16.dp))
+                        .size(230.dp)
+                        .padding(6.dp)
+                        .shadow(12.dp, RoundedCornerShape(20.dp))
+                        .clip(RoundedCornerShape(20.dp))
+                        .background(Color.White)
+                        .padding(14.dp),
+                    contentAlignment = Alignment.Center
                 ) {
-                    QrCodeView(
-                        content = websiteUrl,
-                        darkColor = Color(0xFF062A2E),
-                        lightColor = Color.White
+                    Image(
+                        painter = painterResource(id = R.drawable.img_faouzi_qr),
+                        contentDescription = "رمز QR الرسمي لورشة فوزي للفنون",
+                        contentScale = ContentScale.Fit,
+                        modifier = Modifier.fillMaxSize()
                     )
                 }
 
